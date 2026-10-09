@@ -1,0 +1,226 @@
+{
+  "kind": "isolated_tool_validation_not_product_acceptance",
+  "time": "2026-10-09T13:00:56+00:00",
+  "cases": [
+    {
+      "operation": "add",
+      "expected": {
+        "solid_count": 1,
+        "volume_mm3_range": [
+          5999.99,
+          6000.01
+        ],
+        "size_mm_ranges": [
+          [
+            29.999,
+            30.001
+          ],
+          [
+            19.999,
+            20.001
+          ],
+          [
+            9.999,
+            10.001
+          ]
+        ]
+      },
+      "measured": {
+        "ok": true,
+        "errors": [],
+        "rebuild": true,
+        "solid_count": 1,
+        "body_check_codes": [
+          0
+        ],
+        "volume_mm3": 5999.999999999999,
+        "size_mm": [
+          30.0,
+          20.0,
+          10.0
+        ],
+        "features": {
+          "ok": true,
+          "count": 5,
+          "features": [
+            {
+              "name": "草图1",
+              "type": "ProfileFeature",
+              "suppressed": false
+            },
+            {
+              "name": "主体A",
+              "type": "Extrusion",
+              "suppressed": false
+            },
+            {
+              "name": "草图2",
+              "type": "ProfileFeature",
+              "suppressed": false
+            },
+            {
+              "name": "工具体B",
+              "type": "ICE",
+              "suppressed": false
+            },
+            {
+              "name": "布尔_add",
+              "type": "CombineBodies",
+              "suppressed": false
+            }
+          ],
+          "under_defined_sketches": []
+        },
+        "note": "实体与量化检查不代替投影/造型评审；默认密度不作为实际材料重量"
+      },
+      "model_sha256": "65caa71f03c2c6b40eeff018d84612ed227096fceba22921e06b0446b4564b39"
+    },
+    {
+      "operation": "subtract",
+      "expected": {
+        "solid_count": 1,
+        "volume_mm3_range": [
+          1999.99,
+          2000.01
+        ],
+        "size_mm_ranges": [
+          [
+            9.999,
+            10.001
+          ],
+          [
+            19.999,
+            20.001
+          ],
+          [
+            9.999,
+            10.001
+          ]
+        ]
+      },
+      "measured": {
+        "ok": true,
+        "errors": [],
+        "rebuild": true,
+        "solid_count": 1,
+        "body_check_codes": [
+          0
+        ],
+        "volume_mm3": 2000.0000000000002,
+        "size_mm": [
+          10.0,
+          20.0,
+          10.0
+        ],
+        "features": {
+          "ok": true,
+          "count": 5,
+          "features": [
+            {
+              "name": "草图1",
+              "type": "ProfileFeature",
+              "suppressed": false
+            },
+            {
+              "name": "主体A",
+              "type": "Extrusion",
+              "suppressed": false
+            },
+            {
+              "name": "草图2",
+              "type": "ProfileFeature",
+              "suppressed": false
+            },
+            {
+              "name": "工具体B",
+              "type": "ICE",
+              "suppressed": false
+            },
+            {
+              "name": "布尔_subtract",
+              "type": "CombineBodies",
+              "suppressed": false
+            }
+          ],
+          "under_defined_sketches": []
+        },
+        "note": "实体与量化检查不代替投影/造型评审；默认密度不作为实际材料重量"
+      },
+      "model_sha256": "4bb27eb49674f5fb6815bd8c7e8f4ba242fc9d628a20efd779b50588a92f0916"
+    },
+    {
+      "operation": "common",
+      "expected": {
+        "solid_count": 1,
+        "volume_mm3_range": [
+          1999.99,
+          2000.01
+        ],
+        "size_mm_ranges": [
+          [
+            9.999,
+            10.001
+          ],
+          [
+            19.999,
+            20.001
+          ],
+          [
+            9.999,
+            10.001
+          ]
+        ]
+      },
+      "measured": {
+        "ok": true,
+        "errors": [],
+        "rebuild": true,
+        "solid_count": 1,
+        "body_check_codes": [
+          0
+        ],
+        "volume_mm3": 2000.0000000000002,
+        "size_mm": [
+          10.0,
+          20.0,
+          10.0
+        ],
+        "features": {
+          "ok": true,
+          "count": 5,
+          "features": [
+            {
+              "name": "草图1",
+              "type": "ProfileFeature",
+              "suppressed": false
+            },
+            {
+              "name": "主体A",
+              "type": "Extrusion",
+              "suppressed": false
+            },
+            {
+              "name": "草图2",
+              "type": "ProfileFeature",
+              "suppressed": false
+            },
+            {
+              "name": "工具体B",
+              "type": "ICE",
+              "suppressed": false
+            },
+            {
+              "name": "布尔_common",
+              "type": "CombineBodies",
+              "suppressed": false
+            }
+          ],
+          "under_defined_sketches": []
+        },
+        "note": "实体与量化检查不代替投影/造型评审；默认密度不作为实际材料重量"
+      },
+      "model_sha256": "44a01df58e4cb5c9ed16eac9e2ef697d4f1a2cc7ee3f6560e937db481800fb82"
+    }
+  ],
+  "ok": true
+}

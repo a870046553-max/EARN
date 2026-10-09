@@ -1,0 +1,59 @@
+{
+  "time": "2026-10-09T13:03:19+00:00",
+  "workflow_tests": {
+    "passed": 11,
+    "failed": 0
+  },
+  "solidworks_boolean": {
+    "passed": true,
+    "operations": [
+      {
+        "operation": "add",
+        "volume_mm3": 5999.999999999999,
+        "solid_count": 1,
+        "body_check_codes": [
+          0
+        ]
+      },
+      {
+        "operation": "subtract",
+        "volume_mm3": 2000.0000000000002,
+        "solid_count": 1,
+        "body_check_codes": [
+          0
+        ]
+      },
+      {
+        "operation": "common",
+        "volume_mm3": 2000.0000000000002,
+        "solid_count": 1,
+        "body_check_codes": [
+          0
+        ]
+      }
+    ]
+  },
+  "ui": {
+    "ok": true,
+    "regions": [
+      461,
+      296,
+      508,
+      470
+    ],
+    "selection": "已选择：96 | LINE | 几何 | Continuous",
+    "zoom": true,
+    "reset": true,
+    "broken_links": 0,
+    "page_errors": []
+  },
+  "source_unchanged": true,
+  "source_sha256": "bc9fe48532c835927324f577883d47c394373f4b4771e8caa9f730f6f6c5a139",
+  "product_model_accepted": false,
+  "product_stage": "2222 waiting for projection / shape interpretation review",
+  "notes": [
+    "This validates tools, not a restored product.",
+    "No AI API calls in deterministic tools.",
+    "No GitHub self-hosted runner installed."
+  ]
+}

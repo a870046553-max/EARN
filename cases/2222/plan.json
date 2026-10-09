@@ -1,0 +1,11 @@
+{
+  "stage_id":"01-main-body",
+  "review_sha256":null,
+  "purpose":"待正确识读三视图后拆解主体；不沿用旧模型的投影包络相交路线",
+  "evidence_refs":[],
+  "predecessor":null,
+  "steps":[],
+  "expected":{"solid_count":null,"volume_mm3_range":null,"size_mm_ranges":null},
+  "projection_check":"先核对三个视向与同一特征的轮廓、尺寸和遮挡；当前未通过读图评审",
+  "status":"not_ready"
+}

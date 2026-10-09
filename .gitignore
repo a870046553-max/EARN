@@ -1,0 +1,15 @@
+config.local.json
+__pycache__/
+*.pyc
+.venv/
+cases/*/source/
+cases/*/stages/
+cases/*/logs/
+cases/*/*.lock
+index.html
+*.SLDPRT
+*.SLDASM
+*.step
+.sw.lock
+cases/*/entities.json
+cases/*/*.svg

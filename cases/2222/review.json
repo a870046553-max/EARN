@@ -1,0 +1,29 @@
+{
+  "source_sha256": "bc9fe48532c835927324f577883d47c394373f4b4771e8caa9f730f6f6c5a139",
+  "status": "pending",
+  "reviewer": "",
+  "reviewed_at": "",
+  "unit": {
+    "name": "",
+    "evidence": ""
+  },
+  "scale": {
+    "geometry_to_mm": null,
+    "evidence": ""
+  },
+  "projection": {
+    "system": "",
+    "evidence": ""
+  },
+  "views": [],
+  "correspondences": [],
+  "dimensions": [],
+  "line_roles": [],
+  "unknowns": [],
+  "blocking_unknowns": [
+    "确认区域视向及投影关系",
+    "确认线条的轮廓、棱边、遮挡与细节含义",
+    "确认尺寸依据，排除上一版错误理解"
+  ],
+  "note": "按建模流程填写。程序检查资料完整性，不代替工程判断。"
+}
